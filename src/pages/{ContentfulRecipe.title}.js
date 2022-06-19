@@ -39,13 +39,13 @@ const RecipeTemplate = ({ data }) => {
                 </article>
                 <article>
                   <BsClockHistory />
-                  <h5>servings</h5>
-                  <p>{servings}</p>
+                  <h5>cook time</h5>
+                  <p>{cookTime} min.</p>
                 </article>
                 <article>
                   <BsPeople />
-                  <h5>prep time</h5>
-                  <p>{prepTime} min.</p>
+                  <h5>servings</h5>
+                  <p>{servings} min.</p>
                 </article>
               </div>
               {/* tags */}
